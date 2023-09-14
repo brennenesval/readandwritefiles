@@ -9,7 +9,7 @@ next(csv_file)
 outfile = open("salesreport.csv", 'w')
 outfile.write("Customer ID, Total \n")
 
-cust_id = '250' #fine to initialize hard coded variables
+cust_id = '250' #fine to initialize hard coded variable
 total = 0
 
 for rec in csv_file:

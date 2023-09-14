@@ -2,7 +2,7 @@ import csv
 
 customers = open('customers.csv', 'r')
 
-csv_file = csv.reader(customers) #add delimiter= if the separation in not ","
+csv_file = csv.reader(customers) #add delimiter= if the separation in not ",
 
 next(csv_file)  #skip a row
 

@@ -1,6 +1,6 @@
 import csv
 
-customers = open('EmployeePay.csv', 'r')
+customers = open('EmployeePay.csv', 'r') #
 
 csv_file = csv.reader(customers) 
 
